@@ -1,0 +1,33 @@
+button {
+  /* background: #5851ff; */
+  /* color: white; */
+  @apply bg-blue-600 text-white;
+  /* margin: 8px; */
+  /* padding: 16px 20px; */
+  @apply m-2 p-4;
+  /* border: none; */
+  @apply border-none;
+  /* font-size: 13px; */
+  /* font-weight: 700; */
+  /* text-transform: uppercase; */
+  @apply text-sm font-bold uppercase;
+  /* border-radius: 2px; */
+  @apply rounded-sm;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); */
+  @appy shadow;
+  /* outline: 0; */
+  @appy outline-none;
+  /* letter-spacing: 0.04em; */
+  @apply tracking-wider;
+  /* transition: all 0.15s ease; */
+  @apply transition-all;
+  /* cursor: pointer; */
+  @apply cursor-pointer;
+}
+
+button:hover {
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1); */
+  @appy shadow-sm;
+  /* transform: translateY(1px); */
+  @apply transform translate-y-px;
+}
